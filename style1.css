@@ -1,0 +1,151 @@
+* {box-sizing: border-box;}
+
+body, html{
+  font-family: 'Dosis', sans-serif;
+}
+
+body,html{
+  outline: none;
+
+}
+
+.container {
+  padding: 2px 16px;
+  background: inherit;
+  margin: 5px;
+  align-content: center;
+}
+
+
+  /* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  transition-property: 5s;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the header */
+.header {
+  /*background-color: #2a2a2a;*/
+
+  background: linear-gradient(to top, #333 , #111 );
+  color: white;
+  padding: 1px;
+  text-align: center;
+}
+
+input[type=text],input[type=password], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 2px;
+  resize: vertical;
+  color:#333;
+  font-weight: 600!important;
+    margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+
+input[type=submit] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 2px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: #333;
+  transition:1s;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.left {
+  width: 70%;
+
+
+}
+
+/* Middle column */
+.column.right {
+  width: 30%;
+  background: inherit;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-content: center;
+  background: inherit;
+}
+
+/* Style the footer */
+.footer {
+  background: linear-gradient(to bottom, #111 , #333 );
+  padding: 10px;
+  text-align: center;
+  color: yellow;
+}
+
+/*Cards*/
+
+.card {
+  padding: 5px;
+  float: left;
+  margin: 2px;
+  background: inherit;
+  color: white;
+
+}
+
+/*.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}*/
+
+.bgimg {
+  background-image: url('img/home3.jpg');
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
